@@ -1,0 +1,21 @@
+# HTTP Server
+server:
+
+  # puerto en el que se ejecutará el servidor de configuración y el repositorio git
+  port: 8888
+
+spring:
+  # Spring Cloud Config Server Repository
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Reof07/SpringCloudConfig-GitRepository
+          username: Reof07
+          password: Miapa.100  
+
+
+
+
+
+
